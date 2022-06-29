@@ -1,2 +1,1 @@
-# tictactoepython
-Tic-Tac-Toe in Python
+Simple Tic-Tac-Toe game in Python. To run type python3 ./tictactoe.py.
