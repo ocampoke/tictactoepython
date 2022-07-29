@@ -101,12 +101,9 @@ def game():
     play_choice = 0
     current_player_counter = 0
     replay_flag = False
-    
 
     instruct_user()
     first_player_is_x = player_menu()
-
-
 
     while (play_choice != 'N'):
         if replay_flag:
@@ -141,7 +138,5 @@ def game():
                 play_choice = input('Do you want to play again? Enter Y for yes or N for no: ')
                 if play_choice == 'Y':
                     replay_flag = True
-
-
 
 game()
